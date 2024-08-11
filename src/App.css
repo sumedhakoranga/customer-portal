@@ -1,0 +1,43 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.customer-portal {
+  display: flex;
+}
+
+.customer-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.customer-card {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.customer-card.selected {
+  background-color: #e0e0e0;
+}
+
+.customer-details {
+  padding: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
